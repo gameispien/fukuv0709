@@ -16,5 +16,25 @@ namespace fukuv0709
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ladel.Left = ladel.Top + 10;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ladel1.Leht - ladel.Left - 10;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ladel1.Top = ladel1.Top - 10;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ladel.Top = ladel1.Top + 10;
+        }
     }
 }
